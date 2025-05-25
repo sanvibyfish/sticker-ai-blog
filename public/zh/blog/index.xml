@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on StickerAI Blog</title>
+    <link>http://localhost:1313/zh/blog/</link>
+    <description>Recent content in Blogs on StickerAI Blog</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不会画画也能做表情包？手把手教你用 AI 一键生成微信贴纸！</title>
+      <link>http://localhost:1313/zh/blog/how-to-make-wechat-stickers/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/blog/how-to-make-wechat-stickers/</guid>
+      <description>用 StickerAI 三步生成微信表情包，无需绘画技能。</description>
+    </item>
+  </channel>
+</rss>

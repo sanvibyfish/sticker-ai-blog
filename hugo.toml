@@ -1,0 +1,21 @@
+baseURL = "https://blog.stickerai.xyz/"
+languageCode = "en-us"
+title = "StickerAI Blog"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+
+  [languages.zh]
+    contentDir = "content/zh"
+    languageName = "中文"
+    weight = 2
+
+[params]
+  defaultTheme = "auto"
+  showReadingTime = true
+  showCodeCopyButtons = true
