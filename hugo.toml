@@ -19,3 +19,27 @@ defaultContentLanguage = "en"
   defaultTheme = "auto"
   showReadingTime = true
   showCodeCopyButtons = true
+  description = "Official blog of StickerAI"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "main-site"
+    name = "🏠 StickerAI"
+    url = "https://stickerai.xyz"
+    weight = 30
+
+    [menu.main.params]
+      external = true

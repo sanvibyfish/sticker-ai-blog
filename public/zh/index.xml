@@ -6,6 +6,14 @@
     <description>Recent content on StickerAI Blog</description>
     <generator>Hugo -- 0.147.5</generator>
     <language>zh</language>
+    <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不会画画也能做表情包？手把手教你用 AI 一键生成微信贴纸！</title>
+      <link>http://localhost:1313/zh/blog/how-to-make-wechat-stickers/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/blog/how-to-make-wechat-stickers/</guid>
+      <description>用 StickerAI 三步生成微信表情包，无需绘画技能。</description>
+    </item>
   </channel>
 </rss>

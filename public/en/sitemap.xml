@@ -2,10 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/ai%E8%B4%B4%E7%BA%B8/</loc>
+    <loc>http://localhost:1313/tags/ai-stickers/</loc>
     <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2024-05-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/blog/how-to-make-wechat-stickers/</loc>
+    <lastmod>2024-05-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/zh/blog/how-to-make-wechat-stickers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blog/how-to-make-wechat-stickers/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/sticker-generator/</loc>
     <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -34,13 +60,7 @@
                 href="http://localhost:1313/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%BE%AE%E4%BF%A1%E8%A1%A8%E6%83%85%E5%8C%85/</loc>
-    <lastmod>2024-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/how-to-make-wechat-stickers/</loc>
-    <lastmod>2024-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%B4%B4%E7%BA%B8%E5%B7%A5%E5%85%B7/</loc>
+    <loc>http://localhost:1313/tags/wechat-stickers/</loc>
     <lastmod>2024-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

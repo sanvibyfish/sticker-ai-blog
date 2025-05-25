@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 24 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>微信表情包怎么做？三步搞定（无需画画）</title>
+      <title>How to Make Your Own WeChat Stickers with AI (No Drawing Skills Needed)</title>
       <link>http://localhost:1313/blog/how-to-make-wechat-stickers/</link>
       <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/how-to-make-wechat-stickers/</guid>
-      <description>用 StickerAI 三步生成微信表情包，无需绘画技能。</description>
+      <description>Create your own WeChat stickers in 3 easy steps using StickerAI — no artistic skills required!</description>
     </item>
   </channel>
 </rss>
