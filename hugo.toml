@@ -20,6 +20,7 @@ defaultContentLanguage = "en"
   showReadingTime = true
   showCodeCopyButtons = true
   description = "Official blog of StickerAI"
+  googleAnalytics = "G-25JZN41Y6L"
 
 [menu]
 
