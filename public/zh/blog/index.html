@@ -1,149 +1,24 @@
-<!DOCTYPE html>
-<html lang="zh" dir="auto">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Blogs | StickerAI Blog</title>
-<meta name="keywords" content="">
-<meta name="description" content="Blogs - StickerAI Blog">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/zh/blog/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/zh/blog/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/">
-<link rel="alternate" hreflang="zh" href="http://localhost:1313/zh/blog/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
-</head>
-
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/zh/" accesskey="h" title="StickerAI Blog (Alt + H)">StickerAI Blog</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-                <ul class="lang-switch"><li>|</li>
-                    <li>
-                        <a href="http://localhost:1313/" title="English"
-                            aria-label="English">En</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/zh/categories/" title="categories">
-                    <span>categories</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/zh/tags/" title="tags">
-                    <span>tags</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://stickerai.xyz" title="🏠 StickerAI">
-                    <span>🏠 StickerAI</span>&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Blogs
-  </h1>
-</header>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">不会画画也能做表情包？手把手教你用 AI 一键生成微信贴纸！
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>为什么要做自己的微信表情包？ 想在聊天中表达情绪，当然得用自己的表情包！StickerAI 就是为此设计的。
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Blogs | StickerAI Blog</title><meta name=keywords content><meta name=description content="Blogs - StickerAI Blog"><meta name=author content><link rel=canonical href=https://blog.stickerai.xyz/zh/blog/><link crossorigin=anonymous href=/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css integrity="sha256-j+ECM6cGvIfy4Is8+XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as=style><link rel=icon href=https://blog.stickerai.xyz/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://blog.stickerai.xyz/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://blog.stickerai.xyz/favicon-32x32.png><link rel=apple-touch-icon href=https://blog.stickerai.xyz/apple-touch-icon.png><link rel=mask-icon href=https://blog.stickerai.xyz/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://blog.stickerai.xyz/zh/blog/index.xml><link rel=alternate hreflang=en href=https://blog.stickerai.xyz/blog/><link rel=alternate hreflang=zh href=https://blog.stickerai.xyz/zh/blog/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-25JZN41Y6L"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-25JZN41Y6L",{cookie_domain:"stickerai.xyz"})</script><meta property="og:url" content="https://blog.stickerai.xyz/zh/blog/"><meta property="og:site_name" content="StickerAI Blog"><meta property="og:title" content="Blogs"><meta property="og:description" content="Official blog of StickerAI"><meta property="og:locale" content="zh"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Blogs"><meta name=twitter:description content="Official blog of StickerAI"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blogs","item":"https://blog.stickerai.xyz/zh/blog/"}]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://blog.stickerai.xyz/zh/ accesskey=h title="StickerAI Blog (Alt + H)">StickerAI Blog</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li><li><a href=https://blog.stickerai.xyz/ title=English aria-label=English>En</a></li></ul></div></div><ul id=menu><li><a href=https://blog.stickerai.xyz/zh/categories/ title=categories><span>categories</span></a></li><li><a href=https://blog.stickerai.xyz/zh/tags/ title=tags><span>tags</span></a></li><li><a href=https://stickerai.xyz title="🏠 StickerAI"><span>🏠 StickerAI</span>&nbsp;
+<svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg></a></li></ul></nav></header><main class=main><header class=page-header><h1>Blogs</h1></header><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Sticker AI 更新日志：2025年5月31日</h2></header><div class=entry-content><p>Sticker AI 产品更新 - 2025年5月31日 🎉 重磅新功能：自定义表情 功能概述 今天我们很兴奋地推出全新的自定义表情功能！现在你可以创建完全个性化的表情提示词，打造独一无二的表情风格。无论是通过AI智能生成还是手动精细编辑，都能让你的表情包更加个性化。
+✨ 核心功能亮点 1. AI智能生成表情 一键生成24个表情: 只需输入一个主题（如"可爱的猫咪"、“打工人日常”），AI就能自动生成24个相关的表情提示词 主题化创作: 支持各种创意主题，从日常生活到特定场景，AI都能理解并生成合适的表情 即时可编辑: AI生成的结果可以立即编辑调整，完全按你的想法定制 2. 可视化表情组管理 直观的分组界面: 左侧边栏显示所有表情组，右侧编辑区域，布局清晰易用 灵活的组织方式: 创建、重命名、删除表情组，让你的表情库井然有序 实时预览编辑: 所见即所得的编辑体验，修改立即生效 3. 精细化表情编辑 完全自定义: 手动添加、编辑每个表情的名称和提示词 拖拽排序: 通过拖拽调整表情顺序，组织你的表情库 批量操作: 一次性保存所有修改，支持创建、更新、删除的批量处理 4. 无缝集成现有流程 智能选择器: 在创建表情包时，可以选择使用"系统表情"或"我的表情" 完美兼容: 自定义表情与系统表情使用体验完全一致 即时切换: 随时在不同表情组之间切换，灵活创作 🎯 使用场景 个性化创作 专属主题表情包: 为特定主题创建专属表情（如"程序员日常"、“学生生活”） 品牌定制: 企业用户可以创建符合品牌调性的表情风格 创意实验: 尝试各种创意表情风格，发挥无限想象 高效内容管理 分类整理: 按主题、风格、用途分组管理表情 快速复用: 一次创建，多次使用，提升创作效率 版本管理: 随时编辑更新表情提示词，保持内容新鲜 🚀 技术特性 智能AI集成 先进的AI理解: 基于最新的AI技术，准确理解用户意图 多样化生成: 确保生成的24个表情各具特色，避免重复 中英文支持: 完整的多语言支持，中英文界面无缝切换 数据安全保障 用户隔离: 每个用户的自定义表情完全独立，确保隐私安全 权限控制: 严格的权限验证，只能操作自己的表情数据 数据备份: 可靠的数据存储，不用担心表情丢失 性能优化 批量处理: 使用数据库事务确保操作的原子性和一致性 智能缓存: 优化加载速度，提供流畅的使用体验 响应式设计: 完美适配桌面端和移动端 📱 使用指南 快速开始 进入功能: 仪表盘 → 自定义表情 选择方式: AI智能生成：输入主题，一键生成 手动管理：精细化编辑每个表情 保存使用: 保存表情组，在创建表情包时选择使用 最佳实践 主题聚焦: 每个表情组围绕一个明确主题，保持风格统一 描述精准: 表情提示词要具体生动，帮助AI更好理解 分组管理: 合理命名和分组，方便后续查找使用 🎨 创作示例 AI生成示例 输入主题: “可爱的办公室小动物” AI生成结果:
+...</p></div><footer class=entry-footer><span title='2025-05-31 19:27:48 +0700 +07'>五月 31, 2025</span>&nbsp;·&nbsp;1 分钟</footer><a class=entry-link aria-label="post link to Sticker AI 更新日志：2025年5月31日" href=https://blog.stickerai.xyz/zh/blog/releases/release-2025-05-31/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Sticker AI 产品更新 - 2025年5月27日</h2></header><div class=entry-content><p>Sticker AI 产品更新 - 2025年5月27日 🎉 新功能发布 1. 多语言表情包生成体验升级 现在你可以享受更流畅的国际化表情包生成体验！
+新增特性:
+智能语言识别: 表情分组现在支持中英文自动切换显示 一键语言切换: 根据你的语言偏好，表情分组名称会自动显示为中文或英文 统一用户体验: 无论使用中文还是英文界面，都能获得一致的功能体验 使用场景:
+海外用户可以更直观地理解表情分类 双语用户可以在不同语言环境下无缝切换 团队协作时语言偏好不再是障碍 2. 表情选择界面全新设计 我们重新设计了表情预设选择界面，让创建表情包变得更简单！
+界面优化:
+紧凑式分组选择: 将原来占用大量空间的分组展示改为下拉选择器，页面更整洁 专注式体验: 一次只显示选中分组的表情，减少选择干扰 简化操作流程: 移除复杂的自定义提示词输入，专注于预设表情的快速选择 图片示例 用户收益:
+页面加载更快，滚动更流畅 减少选择困难，提高创建效率 界面更清爽，视觉体验更佳 3. 表情库内容大幅扩充 新增288个日常表情预设，让你的表情包更丰富多样！
+新增内容:
+日常响应系列: 涵盖各种日常交流场景的表情反应 情感表达增强: 更多细致的情感表达选项 社交场景完善: 适用于不同社交平台和对话情境 图片示例 实际应用:
+微信聊天表情包更有趣 工作沟通中的情感表达更丰富 朋友圈互动更生动活泼 🚀 体验改进 1. 表情重新生成更及时 问题解决: 修复了重新生成表情时显示旧图片的问题
+现在的体验:
+不再出现"明明重新生成了，但看到的还是旧图片"的困扰 每次生成的表情都是全新的，避免缓存干扰 技术优化: 自动清理旧文件，节省你的存储空间
+2. 表情生成质量提升 AI提示词优化: 后台重构了AI图像生成的提示词处理系统
+质量提升:
+生成的表情风格更一致 AI理解你的需求更准确 表情表达更生动自然 用户感知:
+...</p></div><footer class=entry-footer><span title='2025-05-27 00:00:00 +0000 UTC'>五月 27, 2025</span>&nbsp;·&nbsp;1 分钟</footer><a class=entry-link aria-label="post link to Sticker AI 产品更新 - 2025年5月27日" href=https://blog.stickerai.xyz/zh/blog/releases/release-2025-05-27/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>不会画画也能做表情包？手把手教你用 AI 一键生成微信贴纸！</h2></header><div class=entry-content><p>为什么要做自己的微信表情包？ 想在聊天中表达情绪，当然得用自己的表情包！StickerAI 就是为此设计的。
 第一步：上传头像 打开 https://stickerai.xyz，上传一张清晰的自拍或其他照片。
 第二步：选择风格和表情 我们支持 Q 版、写实、漫画风等，并可选 13 多种情绪动作（开心、生气、害羞等）。
 第三步：一键生成24张贴纸 StickerAI 会自动生成 24 张贴纸，透明背景，点击下载即可。
@@ -157,83 +32,8 @@ A：当然可以，建议五官清晰。
 Q：生成后如何导入微信？
 A：在微信“我的表情”中添加图片即可。
 🎁 免费体验 现在注册 StickerAI 即可获得 10 次免费贴纸生成体验，无需兑换码！
-👉 点击前往 开始制作你的专属微信表情包。
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-05-24 00:00:00 +0000 UTC'>五月 24, 2024</span>&nbsp;·&nbsp;1 分钟</footer>
-  <a class="entry-link" aria-label="post link to 不会画画也能做表情包？手把手教你用 AI 一键生成微信贴纸！" href="http://localhost:1313/zh/blog/how-to-make-wechat-stickers/"></a>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/zh/">StickerAI Blog</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+👉 点击前往 开始制作你的专属微信表情包。</p></div><footer class=entry-footer><span title='2024-05-24 00:00:00 +0000 UTC'>五月 24, 2024</span>&nbsp;·&nbsp;1 分钟</footer><a class=entry-link aria-label="post link to 不会画画也能做表情包？手把手教你用 AI 一键生成微信贴纸！" href=https://blog.stickerai.xyz/zh/blog/how-to-make-wechat-stickers/></a></article></main><footer class=footer><span>&copy; 2025 <a href=https://blog.stickerai.xyz/zh/>StickerAI Blog</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
